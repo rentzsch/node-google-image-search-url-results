@@ -1,0 +1,28 @@
+{
+  "name": "google-image-search-url-results",
+  "version": "1.0.1",
+  "description": "returns an array of urls for images matching the query",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rentzsch/node-google-image-search-url-results.git"
+  },
+  "keywords": [
+    "google",
+    "image",
+    "search"
+  ],
+  "author": "Jonathan 'Wolf' Rentzsch",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rentzsch/node-google-image-search-url-results/issues"
+  },
+  "homepage": "https://github.com/rentzsch/node-google-image-search-url-results#readme",
+  "dependencies": {
+    "cheerio": "^0.20.0",
+    "request-promise": "^2.0.0"
+  }
+}
